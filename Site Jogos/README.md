@@ -1,10 +1,18 @@
-Este é o repositório de que deverá armazenar o Projeto de DS122 do início ao final da disciplina.
+<img width="auto" src="https://i.imgur.com/WVYGq4c.png">
 
-Alunos pertencentes ao grupo:
+# Site de jogos
 
-* Lucas Perussi de Oliveira
-* Mateus De Vita Tassote
-* Leo Riegler Mello
-* Fernando Carvalho Birznek
-* Silvio Luiz Bueno Brandão Junior
+## Trabalho de Web 1 da UFPR 
+Site com com informações de jogos, e compra de ingressos para eventos.
+
+ :rocket:  &nbsp; **Tecnologias Utilizadas**
+ <br/>  &nbsp; HTML;
+ <br/>  &nbsp; CSS;
+ <br/>  &nbsp; JavaScript;
+ <br/>  &nbsp; DOM;
+ <br/>  &nbsp; JQuery;
+ <br/>  &nbsp; PHP;
+ <br/>  &nbsp; SQL;
+
+
 
