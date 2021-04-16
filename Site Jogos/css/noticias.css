@@ -1,0 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url("banner.png") center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-behavior: smooth;
+  margin: 0px;
+
+  /*background: url("../imagens/fundo2.png");
+  color: black;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  margin-left: 100px;*/
+}
+
+div#interface {
+  width: 900px;
+  background: url("../imagens/fundo4.png");
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgb(36, 63, 88);
+  padding: 10px 10px 10px 10px;
+}
+
+/*#cabecalho {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -10px;
+  left: 660px;
+  text-align: center;
+  border: solid 1px black;
+  padding: 0px;
+  list-style-type: none;
+}*/
+
+.container {
+  /*max-width: 500px;
+	/*background: rgb(7, 30, 37);*/
+  margin: 0 auto;
+  position: relative;
+  /*padding-bottom: 20px;*/
+}
+.top-bar-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.top-bar-fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 5 0px;
+  z-index: 1;
+}
+.top-bar-content {
+  max-width: 0 auto;
+  margin: 0 auto;
+  background: rgb(12, 12, 12);
+  color: rgb(0, 0, 0);
+  padding: 18px 0;
+  padding-right: 15px;
+  font-family: "Roboto" bold;
+  box-shadow: 0px 5px 5px rgba(54, 93, 150, 0.5);
+  z-index: 1;
+}
+.titulo {
+  font-family: "Danube";
+  font-size: 20;
+}
+/*
+h2 {
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: center;
+}*/
+
+nav a:link,
+nav a:visited {
+  margin-left: 50;
+  font-family: Roboto Bold;
+  padding: 10px 10;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+img#direita {
+  position: absolute;
+  z-index: 5;
+  margin-left: 950px;
+  width: 120px;
+  margin-top: 140px;
+}
+
+img#esquerda {
+  position: absolute;
+  z-index: 5;
+  margin-left: 350px;
+  width: 120px;
+  margin-top: 140px;
+}
+
+#st3 {
+  background: rgba(14, 60, 211, 0.788);
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  font-family: Roboto;
+  font-style: bold;
+  font-size: 20;
+  color: rgb(241, 241, 241);
+  text-align: center;
+  margin-bottom: 0px;
+  z-index: 3;
+}
+
+th {
+  width: 30%;
+  text-align: left;
+}
+.cab {
+  text-indent: 0px;
+  display: block;
+  padding: 4px;
+  margin: 2px;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cab:hover {
+  background-color: #ffffff;
+}
+
+.tabela {
+  width: 80%;
+}
+
+.tabela,
+S th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.menu {
+  padding-left: 50px;
+}
+
+#titulo1 {
+  font-size: 25px;
+  font-family: roboto;
+  color: white;
+  margin-top: 80px;
+  padding: 60px;
+  text-align: center;
+  padding-left: 50px;
+  background: rgb(12, 12, 12);
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+  padding: 39px;
+  text-align: center;
+  background: rgb(17, 52, 168);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#logo {
+  padding-top: 10px;
+  height: 30px;
+  width: 80px;
+}
+
+#conteudo {
+  text-align: left;
+}
+
+table {
+  /*border-style: hidden;*/
+  border: 0px;
+  padding-left: 25%;
+
+  padding-inline-start: 30px;
+}
+
+#links {
+  color: rgb(253, 250, 247);
+  font-style: inherit;
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px rgba(55, 168, 84, 0.897);
+}
+
+#noticia {
+  width: 400px;
+  padding-left: 185px;
+  text-shadow: 0px 5px 5px rgba(23, 179, 158, 0.897);
+}
+
+div#margemheader {
+  position: absolute;
+  margin-top: -100px;
+}
+
+div#margem {
+  margin-top: 100px;
+}
+
+fieldset {
+  font-family: Roboto bold;
+  margin-top: 50px;
+  width: 90%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 70px;
+  
+}
+
+#baixo {
+  background: rgb(32, 32, 32);
+  opacity: 1;
+}
+
+#compra {
+  background: rgb(17, 52, 168);
+  color: rgb(255, 255, 255);
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+footer {
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+  padding: 60px;
+  text-align: center;
+  padding-left: 50px;
+  background: rgb(12, 12, 12);
+  margin-bottom: 0px;
+}
+
+#st5 {
+  background: rgba(57, 59, 66, 0.788);
+  opacity: 1;
+  height: 900px;
+  width: 100%;
+  font-family: Roboto;
+  font-style: bold;
+  font-size: 20;
+  color: rgb(241, 241, 241);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+  z-index: 3;
+}
